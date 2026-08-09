@@ -1,6 +1,6 @@
-switch:
-  sudo darwin-rebuild switch
 check:
-  sudo darwin-rebuild check
+    sudo darwin-rebuild check
+switch:
+    sudo darwin-rebuild switch
 update:
-  nix flake update
+    nix flake update
