@@ -12,6 +12,7 @@
   };
   environment.systemPackages = with pkgs; [
     inputs.nix-auth.packages.${pkgs.stdenv.hostPlatform.system}.default
+    container
     mihomo
     yazi
     git
